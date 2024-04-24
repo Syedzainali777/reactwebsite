@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+}
+.container{
+    position: relative;
+    /* width: 100vw; */
+}
+.form-container{
+    display: flex;
+    gap: 5.15vw;
+    width: 80.498vw;
+    margin: auto;
+}
+.heading{
+    width: 10.764vw;
+    margin: auto;
+    font-size: 2.778vw;
+    font-family: "Libre Franklin";
+}
+.form-wraper{
+    width: 33.507vw;
+    height: 42.708vw;
+}
+.detail{
+    width: 33.681vw;
+    height: 18.461vw;
+}
+.address{
+    display: flex;
+    gap: 1.736vw;
+    align-items: center;
+    width: 31.829vw;
+    height: 3.53vw;
+}
+.address-img{
+    width: 2.257vw;
+    height: 2.257vw;
+}
+.address-text{
+    font-size: 1.157vw;
+    font-family: "Libre Franklin";
+}
+.email-img{
+    height: 1.707vw;;
+}
+.metero{
+    margin-top: 0.5vw;
+}
+.plant{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 18.981vw;
+    height: 32.697vw;
+}
+.input-filed{
+    display: flex;
+    gap: 1vw;
+    width: 32.35vw;
+}
+.input-1{
+    display: flex;
+    flex-direction: column;
+    width: 15.596vw;
+    height: 5.324vw;
+}
+input{
+    background: #3B754F;
+    border-radius: 0.926vw;
+    height: 2.72vw;
+    width: 100%;
+    font-size: 1.157vw;
+    color: white;
+    /* padding: 0 1vw; */
+}
+.inputs{
+    width: 32.35vw;
+    margin-top: 1.2vw;
+}
+.text-msg{
+    display: flex;
+    flex-direction: column;
+    margin: 2.5vw 0 0 0;
+    width: 32.35vw;
+}
+.btn{
+    width: 11.863vw;
+    height: 2.72vw;
+    font-size: 1.157vw;
+    color: white;
+    background: #417BEB;
+    border-radius: 0.926vw;
+    border: none;
+    margin: 3.157vw 31% 0;
+}
+textarea{
+    height: 8.333vw;
+    background: #3B754F;
+    border-radius: 0.926vw;
+}
+.dropdown{
+    width: 100%;
+    height: 2.72vw;
+    margin-top: 1.2vw;
+}
+.dropdown select{
+    height: 2.72vw;
+    width: 32.35vw;
+    color: white;
+    background: #3B754F;
+    border-radius: 0.926vw;
+    outline: none;
+    font-size: 1.157vw;
+}
+.left-plant{
+    position: absolute;
+    top: 43vw;
+    left: 0;
+    width: 27.083vw;
+    height: 47.338vw;
+    z-index: -1;
+}
+.footer{
+    position: relative;
+    width: 100%;
+    height: 46.412vw;
+    margin: 8vw 0 0 0;
+}
+.slide{
+    width: 100%;
+    height: 100%;
+}
+.map{
+    width: 46.007vw;
+    height: 45.139vw;
+    position: absolute;
+    right: 9.751vw;
+    top: 22.977vw;
+    z-index: 1;
+}
+.map iframe{
+    position: absolute;
+    left: 3vw;
+    overflow: hidden;
+    width: 43vw;
+    height: 48vw;
+    border-radius: 50%;
+    z-index: -1;
+    border: 0.405vw solid #FCD6A4;
+}
+.footer-text{
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 50.81vw;
+    height: 15.625vw;
+}
+.footer-text p{
+    font-family: "Libre Franklin";
+    font-size: 1.389vw;
+    text-align: center;
+    color: white;
+    font-weight: 800;
+}
+.social-icon{
+    width: 7.986vw;
+    margin: 0.5vw auto 0 auto;
+    display: flex;
+    gap: 0.694vw;
+}
+.icon-img{
+    width: 2.894vw;
+    height: 2.894vw;
+}
+.text{
+    width: 13.715vw;
+    height: 4.861vw;
+    margin: auto;
+}

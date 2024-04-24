@@ -1,0 +1,380 @@
+* {
+  box-sizing: border-box;
+}
+p {
+  margin: 0;
+}
+body {
+  background-color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  width: 100vw;
+  justify-content: end;
+  column-gap: 3.704vw;
+  padding-right: 3.935vw;
+  padding-top: 2.083vw;
+}
+.navbar p {
+  font-family: Libre Franklin;
+  font-size: 1.389vw;
+  font-weight: 600;
+}
+.header-section {
+  height: 62.5vw;
+  background-repeat: no-repeat;
+  position: relative;
+}
+img {
+  height: 100%;
+  width: 100%;
+}
+.header-img {
+  position: absolute;
+  top: -2.199vw;
+  left: 0;
+  width: 47.849vw;
+  height: 62.035vw;
+}
+.header-img2 {
+  height: 62.5vw;
+  width: 62.558vw;
+}
+.header-img-wrapper {
+  width: 100vw;
+  display: flex;
+  justify-content: end;
+}
+.heading-top {
+  color: #323232;
+  position: absolute;
+  z-index: 1;
+  margin-left: 1.563vw;
+  top: 5.266vw;
+}
+.heading-top p {
+  font-family: Libre Franklin;
+  font-size: 7.407vw;
+  font-weight: 600;
+  line-height: 7.407vw;
+  margin-left: 1.563vw;
+}
+#heading-name {
+  font-family: Licorice;
+  font-size: 3.704vw;
+  font-weight: 400;
+  color: #323232;
+}
+.heading-btn {
+  height: 5.787vw;
+  position: absolute;
+  color: beige;
+  z-index: 1;
+  width: 25.637vw;
+  background-color: #417beb;
+  border-radius: 2.894vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 35.475vw;
+  margin-left: 5.15vw;
+}
+.heading-btn p {
+  font-family: Libre Franklin;
+  font-size: 2.315vw;
+  font-weight: 400;
+}
+/* ------------------content-section------------------------------ */
+.content-section {
+  height: 68.576vw;
+  position: relative;
+}
+.content-head {
+  display: flex;
+  justify-content: center;
+  margin-top: 4vw;
+}
+.content-head p {
+  font-family: Libre Franklin;
+  font-size: 2.778vw;
+  font-weight: 700;
+}
+.righttop {
+  width: 18.75vw;
+  height: 31.192vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+.rightbtm {
+  width: 18.692vw;
+  height: 37.674vw;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+.leftleaf {
+  width: 19.734vw;
+  height: 32vw;
+  position: absolute;
+  left: 0;
+  bottom: -10vw;
+  z-index: 1;
+}
+.girl {
+  width: 18.229vw;
+  height: 21.47vw;
+  position: absolute;
+  z-index: 1;
+  top: 7.639vw;
+  left: 5.516vw;
+}
+.bed {
+  width: 25.289vw;
+  height: 31.019vw;
+  position: absolute;
+  z-index: 1;
+  right: 9.491vw;
+  bottom: 8.558vw;
+}
+.girl-desc-head {
+  position: absolute;
+  z-index: 1;
+  margin-left: 25.637vw;
+  top: 10.88vw;
+}
+.girl-desc-head p {
+  font-family: Libre Franklin;
+  font-size: 2.083vw;
+  font-weight: 700;
+  color: #f0f0f0;
+}
+.girl-desc {
+  position: absolute;
+  z-index: 1;
+  margin-left: 25.637vw;
+  top: 13.947vw;
+  width: 50.984vw;
+}
+.girl-desc p {
+  font-family: Libre Franklin;
+  font-size: 1.62vw;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+.bed-desc-head {
+  position: absolute;
+  z-index: 1;
+  margin-left: 14.641vw;
+  top: 38.6vw;
+}
+.bed-desc-head p {
+  font-family: Libre Franklin;
+  font-size: 2.083vw;
+  font-weight: 700;
+  color: #f0f0f0;
+}
+.bed-desc {
+  position: absolute;
+  z-index: 1;
+  margin-left: 14.641vw;
+  top: 42.94vw;
+  width: 50.984vw;
+}
+.bed-desc p {
+  font-family: Libre Franklin;
+  font-size: 1.62vw;
+  font-weight: 500;
+  color: #f0f0f0;
+}
+
+/* ---------------------------photo section ---------------- */
+
+.photos-section {
+  display: flex;
+  justify-content: space-around;
+}
+.nurseleft {
+  width: 32.176vw;
+  height: 32.176vw;
+  margin-top: 10vw;
+}
+.nurseright {
+  width: 36.748vw;
+  right: 35.127vw;
+}
+/* ---------------------------dropdown section ---------------- */
+
+.dropdown-section {
+  height: 82.813vw;
+  width: 99vw;
+  margin-top: 3vw;
+  position: relative;
+}
+.dropdown-heading {
+  height: 1.736vw;
+  position: absolute;
+  top: -4vw;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+}
+.dropdown-heading p {
+  font-family: Libre Franklin;
+  font-size: 2.778vw;
+  font-weight: 700;
+}
+#tarif-btn {
+  height: 5.787vw;
+  position: absolute;
+  color: beige;
+  z-index: 1;
+  width: 25.637vw;
+  background-color: #417beb;
+  border-radius: 2.894vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  bottom: -7vw;
+}
+.tarif-btn p {
+  font-family: Libre Franklin;
+  font-size: 2.315vw;
+  font-weight: 400;
+}
+.tarif-btn {
+  display: flex;
+  justify-content: center;
+}
+#tarif-btn:hover {
+  background-color: white;
+  color: black;
+}
+.heading-btn:hover {
+  background-color: white;
+  color: black;
+}
+.tarif-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: Libre Franklin;
+  font-size: 3.299vw;
+  font-weight: 700;
+  position: absolute;
+  top: 53.009vw;
+}
+.tarif-cards {
+  background-color: #f0f0f0;
+  width: 19.387vw;
+  height: 25.752vw;
+  position: absolute;
+  left: 29.514vw;
+  top: 56.819vw;
+  border-top-left-radius: 0.761vw;
+  border-bottom-left-radius: 0.761vw;
+}
+.tarif-cards2 {
+  background-color: #f0f0f0;
+  width: 19.387vw;
+  height: 25.752vw;
+  position: absolute;
+  left: 48.514vw;
+  top: 56.819vw;
+  border-top-right-radius: 0.761vw;
+  border-bottom-right-radius: 0.761vw;
+}
+.tarif-cards2 p {
+  font-family: Lexend;
+  font-size: 3.299vw;
+  font-weight: 400;
+}
+.tarif-cards2 span {
+  font-family: Lexend;
+  font-size: 1.157vw;
+  font-weight: 400;
+}
+.tarif-cards p {
+  font-family: Lexend;
+  font-size: 3.299vw;
+  font-weight: 400;
+}
+.tarif-cards span {
+  font-family: Lexend;
+  font-size: 1.157vw;
+  font-weight: 400;
+}
+.bullet-circle {
+  height: 0.623vw;
+  width: 0.623vw;
+  background-color: #aaaaaa;
+  border-radius: 50%;
+}
+.bullets p {
+  font-family: Libre Franklin;
+  font-size: 1.1vw;
+  font-weight: 100;
+}
+.bullets {
+  display: flex;
+  column-gap: 1vw;
+  padding-left: 1.389vw;
+  margin-top: 0.694vw;
+}
+.consultaion {
+  padding-top: 3.356vw;
+  padding-left: 1.389vw;
+}
+.consultaion-text {
+  margin-top: 2.025vw;
+}
+.consultaion-text p {
+  font-family: Libre Franklin;
+  font-size: 1.66vw;
+  font-weight: 300;
+  padding-left: 1.389vw;
+}
+.lastleaf {
+  position: absolute;
+  bottom: -15vw;
+  left: 0;
+  width: 17.766vw;
+  height: 32.523vw;
+}
+/* ----------------------slider cards------------- */
+.slider-cards {
+  background-color: #417beb;
+  width: 306.62px;
+  height: 183px;
+  padding: 12.12px 0px 0px 0px;
+  gap: 0px;
+  border-radius: 19.39px 0px 0px 0px;
+  opacity: 0px;
+}
+.footer {
+  margin-top: 8vw;
+}
+.firstRow {
+  height: 2.525vw;
+  width: 2.525vw;
+  border-radius: 50%;
+  background-color: #512da8;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.firstImg {
+  height: 2.525vw;
+  width: 2.525vw;
+}
+.slider-cards {
+  height: 2.525vw;
+  width: 2.525vw;
+}
