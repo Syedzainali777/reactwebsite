@@ -124,7 +124,7 @@ textarea{
     position: relative;
     width: 100%;
     height: 46.412vw;
-    margin: 8vw 0 0 0;
+    margin: 29vw 0 0 0;
 }
 .slide{
     width: 100%;
@@ -178,4 +178,21 @@ textarea{
     width: 13.715vw;
     height: 4.861vw;
     margin: auto;
+}
+
+@media only screen and (max-width: 1023px) {
+
+.text-msg {
+    margin-top: 5.9vw;
+}
+.inputs{
+  margin-top: 3.5vw;
+}
+.footer-text {
+    position: absolute;
+    bottom: 21vw;
+}
+.footer-text p {
+    font-size: 3.389vw;
+}
 }

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4332b35f.css",
+    "main.js": "/static/js/main.205cbf27.js",
+    "static/media/template.svg": "/static/media/template.2dd59c2f7b2e6cbaa43a563e8b36d297.svg",
+    "static/media/bed.png": "/static/media/bed.c603b27e1aee3c9382b6.png",
+    "static/media/massage.png": "/static/media/massage.ee865bc94f27a632500d.png",
+    "static/media/patient.png": "/static/media/patient.2f2fdb43ed7da5203d78.png",
+    "static/media/Intersect.png": "/static/media/Intersect.c3bae63e69988e0929c5.png",
+    "static/media/girl.png": "/static/media/girl.2f5d2b9b949a6b5dee23.png",
+    "static/media/leftPlant.png": "/static/media/leftPlant.ada4c5fa17b10028ddf1.png",
+    "static/media/rightbottomleaf.png": "/static/media/rightbottomleaf.20fba50e9c70146e56bd.png",
+    "static/media/background.png": "/static/media/background.e969f42d44dd9cefd9e3.png",
+    "static/media/lastleaf.png": "/static/media/lastleaf.d123b6c19fcf4a077ca8.png",
+    "static/media/btmbackground.png": "/static/media/btmbackground.709960e64733aefe3f7b.png",
+    "static/media/rightPlant.png": "/static/media/rightPlant.b86ef726788a4237a2eb.png",
+    "static/media/righttopleaf.png": "/static/media/righttopleaf.3e9634f086576c066159.png",
+    "static/media/leftleaf.png": "/static/media/leftleaf.083307e54d2de5ec32e1.png",
+    "static/media/Intersect1.png": "/static/media/Intersect1.4ec35ad167f0c6bbe713.png",
+    "index.html": "/index.html",
+    "main.4332b35f.css.map": "/static/css/main.4332b35f.css.map",
+    "main.205cbf27.js.map": "/static/js/main.205cbf27.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4332b35f.css",
+    "static/js/main.205cbf27.js"
+  ]
+}

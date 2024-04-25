@@ -4,6 +4,9 @@
 p {
   margin: 0;
 }
+.container{
+  overflow: hidden;
+}
 body {
   background-color: #d9d9d9;
   margin: 0;
@@ -11,7 +14,6 @@ body {
 }
 .navbar {
   display: flex;
-  width: 100vw;
   justify-content: end;
   column-gap: 3.704vw;
   padding-right: 3.935vw;
@@ -19,6 +21,7 @@ body {
 }
 .navbar p {
   font-family: Libre Franklin;
+  cursor: pointer;
   font-size: 1.389vw;
   font-weight: 600;
 }
@@ -268,24 +271,32 @@ img {
   font-size: 3.299vw;
   font-weight: 700;
   position: absolute;
-  top: 53.009vw;
+  top: 50.009vw;
 }
 .tarif-cards {
   background-color: #f0f0f0;
   width: 19.387vw;
-  height: 25.752vw;
+  height: 21.586vw;
   position: absolute;
   left: 29.514vw;
   top: 56.819vw;
   border-top-left-radius: 0.761vw;
   border-bottom-left-radius: 0.761vw;
 }
+.tarif-cards:hover {
+  height: 23.785vw;
+  background-color: #3b754f;
+}
+.tarif-cards2:hover {
+  height: 23.785vw;
+  background-color: #3b754f;
+}
 .tarif-cards2 {
   background-color: #f0f0f0;
   width: 19.387vw;
-  height: 25.752vw;
+  height: 21.586vw;
   position: absolute;
-  left: 48.514vw;
+  left: 48.9vw;
   top: 56.819vw;
   border-top-right-radius: 0.761vw;
   border-bottom-right-radius: 0.761vw;
@@ -348,24 +359,25 @@ img {
   height: 32.523vw;
 }
 /* ----------------------slider cards------------- */
-.slider-cards {
-  background-color: #417beb;
-  width: 306.62px;
-  height: 183px;
-  padding: 12.12px 0px 0px 0px;
-  gap: 0px;
-  border-radius: 19.39px 0px 0px 0px;
-  opacity: 0px;
+.slider-wrapper {
+  margin: 4vw 14.5vw 0 3.8vw;
+  position: relative;
 }
-.footer {
-  margin-top: 8vw;
+.slider-cards {
+  background-color: white;
+  width: 17.708vw;
+  height: 10.59vw;
+  padding-top: 0.752vw;
+  display: flex;
+  position: absolute;
+  border-radius: 1.122vw;
+  padding-left: 0.868vw;
 }
 .firstRow {
   height: 2.525vw;
   width: 2.525vw;
   border-radius: 50%;
   background-color: #512da8;
-  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -373,8 +385,229 @@ img {
 .firstImg {
   height: 2.525vw;
   width: 2.525vw;
+  margin-left: 5.308vw;
 }
-.slider-cards {
-  height: 2.525vw;
-  width: 2.525vw;
+.firstName {
+  margin-left: 0.701vw;
+}
+.firstName p {
+  font-size: 0.771vw;
+  font-family: Libre Franklin;
+  font-weight: 300;
+}
+.firstName span {
+  font-size: 0.509vw;
+  font-family: Libre Franklin;
+  font-weight: 300;
+}
+.starimg {
+  height: 1vw;
+  width: 6.134vw;
+  position: absolute;
+  top: 4vw;
+  left: 0.8vw;
+}
+.card-text {
+  position: absolute;
+  width: 16.319vw;
+  height: 5.208vw;
+  top: 5.5vw;
+  left: 1vw;
+}
+.card-text p {
+  font-family: Libre Franklin;
+  font-size: 0.701vw;
+  font-weight: 300;
+}
+.slider-cards-wrapper {
+  position: absolute;
+  display: flex;
+  margin-top: 8.333vw;
+}
+/* ----------------------------acccordian ------------------ */
+:root {
+  --primary: #227093;
+  --background: #eee;
+  --highlight: #ffda79;
+  --theme: var(--primary);
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Core styles/functionality */
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+  background-color: #224574;
+}
+.tab input:checked ~ .tab__content {
+  max-height: 10rem;
+}
+
+/* Visual styles */
+.accordion {
+  color: var(--theme);
+  margin-left: 20.37vw;
+  width: 59.259vw;
+}
+.tab__label,
+.tab__close {
+  display: flex;
+  color: white;
+  background: #224574;
+  cursor: pointer;
+}
+.tab {
+  margin-bottom: 0.9vw;
+}
+.tab__label {
+  justify-content: space-between;
+  padding: 1rem;
+  border-radius: 0.926vw;
+}
+.tab__label::after {
+  content: "\276F";
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+}
+.tab__content p {
+  margin: 0;
+  padding: 1rem;
+  color: white;
+}
+.tab__close {
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+.accordion--radio {
+  --theme: var(--secondary);
+}
+.accordian-wrapper {
+  position: absolute;
+  top: 183vw;
+  z-index: 2;
+}
+.brown-color{
+  background-color: #FCD6A4;
+}
+.grape-color{
+  background-color: #00C8C8;
+}
+.black-color{
+  background-color: #323232;
+}
+.green-color{
+  background-color: #9DDB96;
+}
+
+/* --------------------------mobile screen responsive ---------------- */
+
+@media only screen and (max-width: 1023px) {
+.navbar{
+  display: flex;
+    justify-content: center;
+    column-gap: 2vw;
+    padding-right: unset;
+    padding-top: 1vw;
+    width: 99vw;
+    position: absolute;
+    z-index: 1;
+}
+.navbar p{
+  font-family: Libre Franklin;
+    cursor: pointer;
+    font-size: 3.607vw;
+    font-weight: 600;
+}
+.header-img2{
+  margin-top: 7vw;
+}
+.heading-top{
+  margin-top: 5vw;
+}
+.tab__label {
+    justify-content: space-between;
+    padding: 0vw 2vw 0 2vw;
+    border-radius: 0.926vw;
+    font-size: 3.2vw;
+}
+.tab__content p {
+    font-size: 2.8vw;
+}
+.content-head {
+    margin-top: 3vw;
+}
+.content-head p{
+    font-size: 4vw;
+}
+.girl-desc-head p {
+    font-size: 2.583vw;
+}
+.girl-desc p {
+    font-size: 1.92vw;
+}
+.bed-desc-head p {
+    font-size: 2.483vw;
+}
+.bed-desc p {
+    font-size: 1.92vw;
+}
+.tarif-title{
+  font-size: 7.299vw;
+  margin-top: -5vw;
+}
+.tarif-cards {
+    background-color: #f0f0f0;
+    width: 27.387vw;
+    height: 26.586vw;
+    position: absolute;
+    left: 21.514vw;
+    top: 56.819vw;
+    border-top-left-radius: 0.761vw;
+    border-bottom-left-radius: 0.761vw;
+}.tarif-cards2 {
+    background-color: #f0f0f0;
+    width: 27.387vw;
+    height: 26.586vw;
+    position: absolute;
+    left: 48.514vw;
+    top: 56.819vw;
+    border-top-left-radius: 0.761vw;
+    border-bottom-left-radius: 0.761vw;
+}
+.consultaion p{
+  font-size: 3.88vw;
+}
+.consultaion span{
+  font-size: 1.88vw;
+}
+.bullets p {
+    font-size: 1.7vw;
+}
+.starimg {
+    top: 1.2vw;
+}
+.input-1 {
+    width: 15.596vw;
+    height: 7.324vw;
+}
+.firstRow{
+  font-size: 2vw;
+}
 }

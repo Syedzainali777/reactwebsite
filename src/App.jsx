@@ -11,6 +11,7 @@ import nurseleft from "./assets/massage.png";
 import btmback from "./assets/btmbackground.png";
 import lastleaf from "./assets/lastleaf.png";
 import google from "./assets/google.png";
+import star from "./assets/star.png";
 import React from "react";
 import Footer from "./components/footer";
 function App() {
@@ -119,6 +120,112 @@ function App() {
             <img src={nurseright} alt="rigt" />
           </div>
         </div>
+        {/* -------------------accordian section ------------------------- */}
+        <div className="accordian-wrapper">
+          <section className="accordion">
+            <div className="tab">
+              <input
+                type="checkbox"
+                name="accordion-1"
+                id="cb1"
+                defaultChecked
+              />
+              <label htmlFor="cb1" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+            <div className="tab">
+              <input type="checkbox" name="accordion-1" id="cb2" />
+              <label htmlFor="cb2" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+            <div className="tab">
+              <input type="checkbox" name="accordion-1" id="cb3" />
+              <label htmlFor="cb3" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+            <div className="tab">
+              <input type="checkbox" name="accordion-1" id="cb4" />
+              <label htmlFor="cb4" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+            <div className="tab">
+              <input type="checkbox" name="accordion-1" id="cb5" />
+              <label htmlFor="cb5" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+            <div className="tab">
+              <input type="checkbox" name="accordion-1" id="cb6" />
+              <label htmlFor="cb6" className="tab__label">
+                Lorem ipsum dolor sit amet consectetur.
+              </label>
+              <div className="tab__content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur. Aliquam amet tellus
+                  vitae cursus magna tempus. Facilisi praesent sed adipiscing
+                  convallis adipiscing praesent nisl. Magna at non pellentesque
+                  at molestie. Urna vivamus nulla faucibus et magna. Nibh massa
+                  sapien eget purus. Egestas velit amet enim venenatis nisi
+                  tellus tempor.
+                </p>
+              </div>
+            </div>
+          </section>
+        </div>
         {/* -------------------dropdown section ------------------------- */}
         <div className="dropdown-section">
           <div className="dropdown-back">
@@ -182,20 +289,148 @@ function App() {
           </div>
         </div>
       </div>
-      {/* <div className="slider-wrapper">
-        <div className="slider-cards">
-          <div className="firstRow">
-            <p>S</p>
-          </div>
-          <div className="firstName">
-            <p>Sabine Michel</p>
-            <span>23/03/2024</span>
-          </div>
-          <div className="firstImg">
-        <img src={google} alt="google" />
+      <div className="slider-cards-wrapper">
+        <div className="slider-wrapper">
+          <div className="slider-main">
+            <div className="slider-cards">
+              <div className="firstRow brown-color">
+                <p>S</p>
+              </div>
+              <div className="firstName">
+                <p>Sabine Michel</p>
+                <span>23/03/2024</span>
+              </div>
+              <div className="firstImg">
+                <img src={google} alt="google" />
+              </div>
+            </div>
+            <div className="starimg">
+              <img src={star} alt="" />
+            </div>
+            <div className="card-text">
+              <p>
+                Sit venenatis et orci integer morbi. Feugiat viverra arcu
+                fringilla pretium risus aliquam eu laoreet aliquet. Parturient
+                feugiat posuere justo mattis cras ullamcorper ac. Consectetur a
+                tincidunt bibendum nunc in. Felis elementum sem mollis
+                scelerisque leo leo eget tristique.
+              </p>
+            </div>
           </div>
         </div>
-      </div> */}
+        <div className="slider-wrapper">
+          <div className="slider-main">
+            <div className="slider-cards">
+              <div className="firstRow grape-color">
+                <p>S</p>
+              </div>
+              <div className="firstName">
+                <p>Sabine Michel</p>
+                <span>23/03/2024</span>
+              </div>
+              <div className="firstImg">
+                <img src={google} alt="google" />
+              </div>
+            </div>
+            <div className="starimg">
+              <img src={star} alt="" />
+            </div>
+            <div className="card-text">
+              <p>
+                Sit venenatis et orci integer morbi. Feugiat viverra arcu
+                fringilla pretium risus aliquam eu laoreet aliquet. Parturient
+                feugiat posuere justo mattis cras ullamcorper ac. Consectetur a
+                tincidunt bibendum nunc in. Felis elementum sem mollis
+                scelerisque leo leo eget tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="slider-wrapper">
+          <div className="slider-main">
+            <div className="slider-cards">
+              <div className="firstRow black-color">
+                <p>S</p>
+              </div>
+              <div className="firstName">
+                <p>Sabine Michel</p>
+                <span>23/03/2024</span>
+              </div>
+              <div className="firstImg">
+                <img src={google} alt="google" />
+              </div>
+            </div>
+            <div className="starimg">
+              <img src={star} alt="" />
+            </div>
+            <div className="card-text">
+              <p>
+                Sit venenatis et orci integer morbi. Feugiat viverra arcu
+                fringilla pretium risus aliquam eu laoreet aliquet. Parturient
+                feugiat posuere justo mattis cras ullamcorper ac. Consectetur a
+                tincidunt bibendum nunc in. Felis elementum sem mollis
+                scelerisque leo leo eget tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="slider-wrapper">
+          <div className="slider-main">
+            <div className="slider-cards">
+              <div className="firstRow green-color">
+                <p>S</p>
+              </div>
+              <div className="firstName">
+                <p>Sabine Michel</p>
+                <span>23/03/2024</span>
+              </div>
+              <div className="firstImg">
+                <img src={google} alt="google" />
+              </div>
+            </div>
+            <div className="starimg">
+              <img src={star} alt="" />
+            </div>
+            <div className="card-text">
+              <p>
+                Sit venenatis et orci integer morbi. Feugiat viverra arcu
+                fringilla pretium risus aliquam eu laoreet aliquet. Parturient
+                feugiat posuere justo mattis cras ullamcorper ac. Consectetur a
+                tincidunt bibendum nunc in. Felis elementum sem mollis
+                scelerisque leo leo eget tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="slider-wrapper">
+          <div className="slider-main">
+            <div className="slider-cards">
+              <div className="firstRow">
+                <p>S</p>
+              </div>
+              <div className="firstName">
+                <p>Sabine Michel</p>
+                <span>23/03/2024</span>
+              </div>
+              <div className="firstImg">
+                <img src={google} alt="google" />
+              </div>
+            </div>
+            <div className="starimg">
+              <img src={star} alt="" />
+            </div>
+            <div className="card-text">
+              <p>
+                Sit venenatis et orci integer morbi. Feugiat viverra arcu
+                fringilla pretium risus aliquam eu laoreet aliquet. Parturient
+                feugiat posuere justo mattis cras ullamcorper ac. Consectetur a
+                tincidunt bibendum nunc in. Felis elementum sem mollis
+                scelerisque leo leo eget tristique.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       <div className="footer">
         <Footer />
       </div>
